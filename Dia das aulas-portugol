@@ -1,0 +1,30 @@
+algoritmo "Dias das Aula"
+
+var
+  departamento: caractere
+  unidade: caractere
+  curso: caractere
+
+inicio
+
+  escreval("Digite seu departamento? ")
+  leia(departamento)
+  escreval("qual sua unidade? ")
+  leia(unidade)
+  escreval("qual o seu curso? ")
+  leia(curso)
+
+  se (departamento = "Tecnologia") e (unidade = "Suzano") e (curso = "Logica")
+  entao escreva("tens aula na Terça.")
+  senao
+    se (departamento = "Tecnologia") e (unidade = "Suzano") e (curso = "programacao")
+    entao escreva("tens aula na Quinta.")
+    senao
+      se (departamento = "Tecnologia") e (unidade = "Itaquera") e (curso = "Mobile")
+      entao escreva("ten aula na Sexta.")     
+      senao escreva("dia da aula ainda não informado.")
+      fimse 
+    fimse
+  fimse
+
+fimalgoritmo
