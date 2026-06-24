@@ -87,6 +87,7 @@ while exit == False:
             for nome in lista_Nomes:
                 inserir(nome)
             print("nome substituido com sucesso")
+            
         case 4:
             i=int(input("Qual posição tu quer deletar?"))
             i -= 1
